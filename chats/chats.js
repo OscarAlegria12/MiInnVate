@@ -19,7 +19,7 @@ document.getElementById('send-button').addEventListener('click', function() {
             const responseMessage = document.createElement('div');
             responseMessage.classList.add('message', 'received');
             responseMessage.innerHTML = `<img src="https://via.placeholder.com/40" alt="Abigail Lue">
-                                         <p>Esta es una respuesta automática del servidor.</p>`;
+                                         <p>Con gusto atenderé tu consulta. ¿Podrías indicarme de qué se trata?"</p>`;
             messagesContainer.appendChild(responseMessage);
         }, 1000);
     }
